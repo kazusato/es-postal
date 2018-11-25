@@ -1,0 +1,7 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /home/sato/repos/es-postal/alldata/*.CSV
+output.logstash:
+ hosts: ["localhost:5044"]

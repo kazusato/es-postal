@@ -1,0 +1,6 @@
+{
+    "aggs" : {
+        "aggs_is_combined" : { "terms": { "field" : "is_combined" } },
+        "aggs_is_koaza_numbered"  : { "terms": { "field" : "is_koaza_numbered"  } }
+    }
+}
